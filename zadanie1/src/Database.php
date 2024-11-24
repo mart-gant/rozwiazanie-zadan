@@ -16,7 +16,7 @@ class Database
         }
     }
 
-    private function getPdo(): PDO
+    public function getPdo(): PDO
     {
         return $this->pdo;
     }
